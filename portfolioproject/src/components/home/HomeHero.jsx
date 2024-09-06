@@ -22,7 +22,7 @@ function HomeHero() {
                 </nav>
 
                 <div class="flex  gap-10 items-center justify-between pt-10 lg:px-8">
-                    <h1 class="font-bold text-3xl max-w-md">Full Stack Developer</h1>
+                    <h1 class="font-bold text-4xl max-w-md">Full Stack Developer</h1>
                     <span class="hidden md:block text-xl max-w-md">I like to challenge myself through developing websites, enhancing my skills and satisfying client needs and requirements</span>
                 </div>
 
