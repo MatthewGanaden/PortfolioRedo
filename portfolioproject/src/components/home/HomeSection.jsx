@@ -111,8 +111,30 @@ function HomeHero() {
                 </div>
             </div>
 
-            <div>
-                <span>Projects</span>
+            <div class="flex flex-col gap-6 m-24">
+                <span class="font-semibold text-3xl">Projects</span>
+                <div class="flex gap-8 p-14 rounded-3xl bg-neutral-900 w-full justify-between items-center">
+                    <div class="flex flex-col">
+                        <h2 class="font-bold text-2xl text-pink-400">DDStudios</h2>
+                        <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
+                        <span>Visit Site</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <h3 class="font-bold text-xl">Development & Deployment</h3>
+                        <span>Wordpress</span>
+                    </div>
+                </div>
+                <div class="flex gap-8 p-14 rounded-3xl bg-neutral-900 w-full justify-between items-center">
+                    <div class="flex flex-col">
+                        <h2 class="font-bold text-2xl text-pink-400">DDStudios</h2>
+                        <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
+                        <span>Visit Site</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <h3 class="font-bold text-xl">Development & Deployment</h3>
+                        <span>Wordpress</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
