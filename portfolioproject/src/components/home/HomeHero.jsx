@@ -10,7 +10,7 @@ const navigation = [
 function HomeHero() {
     return (
         <div class="relative">
-            <div class="flex flex-col gap-8 box-border mx-11 my-6 px-14 rounded-3xl bg-neutral-900 relative inset-x-0 top-0 z-50 h-[calc(100vh-3rem)]">
+            <div class="flex flex-col gap-8 box-border mx-11 my-6 px-14 rounded-3xl bg-neutral-900 relative z-50 h-[calc(100vh-3rem)]">
                 <nav class="flex items-center justify-between pt-6">
                     <a href="">Matthew Ganaden</a>
                         <div class="hidden gap-36 text-base lg:flex lg:items-center text-primarytext">

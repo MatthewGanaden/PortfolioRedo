@@ -111,6 +111,9 @@ function HomeHero() {
                 </div>
             </div>
 
+            <div>
+                <span>Projects</span>
+            </div>
         </div>
     )
 }
