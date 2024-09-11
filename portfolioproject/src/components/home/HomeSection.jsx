@@ -119,20 +119,20 @@ function HomeHero() {
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
                         <span>Visit Site</span>
                     </div>
-                    <div class="flex flex-col">
+                    <div class="flex flex-col text-right">
                         <h3 class="font-bold text-xl">Development & Deployment</h3>
                         <span>Wordpress</span>
                     </div>
                 </div>
                 <div class="flex gap-8 p-14 rounded-3xl bg-neutral-900 w-full justify-between items-center">
                     <div class="flex flex-col">
-                        <h2 class="font-bold text-2xl text-pink-400">DDStudios</h2>
+                        <h2 class="font-bold text-2xl text-pink-400">MatthewGanaden</h2>
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
                         <span>Visit Site</span>
                     </div>
-                    <div class="flex flex-col">
+                    <div class="flex flex-col text-right">
                         <h3 class="font-bold text-xl">Development & Deployment</h3>
-                        <span>Wordpress</span>
+                        <span>React, Figma, Photoshop, After Effects, Premiere Pro</span>
                     </div>
                 </div>
             </div>
