@@ -117,7 +117,16 @@ function HomeHero() {
                     <div class="flex flex-col">
                         <h2 class="font-bold text-2xl text-pink-400">DDStudios</h2>
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
-                        <span>Visit Site</span>
+                        <a href="" class="font-medium border border-white px-7 py-4 rounded-full group relative flex items-center hover:text-slate-800 hover:bg-white top-0 duration-400 ease">
+                            <span class="relative">View More</span>
+                            <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                                <svg class="w-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </span>
+                        </a>
+                                            
                     </div>
                     <div class="flex flex-col text-right">
                         <h3 class="font-bold text-xl">Development & Deployment</h3>
@@ -134,6 +143,16 @@ function HomeHero() {
                         <h3 class="font-bold text-xl">Development & Deployment</h3>
                         <span>React, Figma, Photoshop, After Effects, Premiere Pro</span>
                     </div>
+                </div>
+            </div>
+
+            <div class="flex m-24 justify-between items-center">
+                <span class="font-semibold text-3xl">Awards</span>
+                <div class="grid grid-cols-3 w-full text-center">
+                    <span>Name</span>
+                    <span>Agency</span>
+                    <span>Date</span>
+                    
                 </div>
             </div>
         </div>
