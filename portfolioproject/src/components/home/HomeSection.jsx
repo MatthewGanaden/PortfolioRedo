@@ -117,14 +117,15 @@ function HomeHero() {
                     <div class="flex flex-col">
                         <h2 class="font-bold text-2xl text-pink-400">DDStudios</h2>
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
-                        <a href="" class="font-medium border border-white px-7 py-4 rounded-full group relative flex items-center hover:text-slate-800 hover:bg-white top-0 duration-400 ease">
-                            <span class="relative">View More</span>
-                            <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
-                                <svg class="w-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    viewBox="0 0 24 24">
-                                    <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+
+                        <a href="https://ddstudiosph.com/" target="_blank" class="mt-5 group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-full bg-neutral-700 px-6 font-medium w-36 transition-colors duration-300 ease-in-out hover:text-gray-800">
+                            <span class="relative z-10">Visit Site</span>
+                            <div class="relative z-10 w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5">
+                                    <path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
                                 </svg>
-                            </span>
+                            </div>
+                            <span class="absolute left-0 aspect-square w-full origin-center translate-x-full rounded-full bg-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span>
                         </a>
                                             
                     </div>
@@ -137,7 +138,16 @@ function HomeHero() {
                     <div class="flex flex-col">
                         <h2 class="font-bold text-2xl text-pink-400">MatthewGanaden</h2>
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
-                        <span>Visit Site</span>
+                        
+                        <a href="" class="mt-5 group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-full bg-neutral-700 px-6 font-medium w-36 transition-colors duration-300 ease-in-out hover:text-gray-800">
+                            <span class="relative z-10">Visit Site</span>
+                            <div class="relative z-10 w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5">
+                                    <path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="absolute left-0 aspect-square w-full origin-center translate-x-full rounded-full bg-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span>
+                        </a>
                     </div>
                     <div class="flex flex-col text-right">
                         <h3 class="font-bold text-xl">Development & Deployment</h3>
@@ -146,13 +156,21 @@ function HomeHero() {
                 </div>
             </div>
 
-            <div class="flex m-24 justify-between items-center">
+            <div class="flex m-24 justify-between">
                 <span class="font-semibold text-3xl">Awards</span>
-                <div class="grid grid-cols-3 w-full text-center">
+                <div class="grid grid-cols-3 w-full pl-36">
                     <span>Name</span>
                     <span>Agency</span>
                     <span>Date</span>
-                    
+                        <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
+                        <span>Department of Information and Communications Technology (DICT)</span>
+                        <span>2021</span>
+                        <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
+                        <span>Department of Information and Communications Technology (DICT)</span>
+                        <span>2021</span>
+                        <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
+                        <span>Department of Information and Communications Technology (DICT)</span>
+                        <span>2021</span>
                 </div>
             </div>
         </div>
