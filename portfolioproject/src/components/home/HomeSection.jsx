@@ -156,21 +156,35 @@ function HomeHero() {
                 </div>
             </div>
 
-            <div class="flex m-24 justify-between">
+            <div class="flex m-24">
                 <span class="font-semibold text-3xl">Awards</span>
-                <div class="grid grid-cols-3 w-full pl-36">
-                    <span>Name</span>
-                    <span>Agency</span>
-                    <span>Date</span>
-                        <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
-                        <span>Department of Information and Communications Technology (DICT)</span>
-                        <span>2021</span>
-                        <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
-                        <span>Department of Information and Communications Technology (DICT)</span>
-                        <span>2021</span>
-                        <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
-                        <span>Department of Information and Communications Technology (DICT)</span>
-                        <span>2021</span>
+                <div class="flex flex-col w-full pl-36 gap-5 pt-10">
+                    <div class="grid grid-cols-[3fr_3fr_1fr] ">
+                        <span>Name</span>
+                        <span>Agency</span>
+                        <span class="justify-self-end">Date</span>
+                    </div>
+                    <a href="">
+                        <div class="grid grid-cols-[3fr_3fr_1fr] ">
+                            <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
+                            <span>Department of Information and Communications Technology (DICT)</span>
+                            <span class="justify-self-end">2021</span>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="grid grid-cols-[3fr_3fr_1fr] ">
+                            <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
+                            <span>Department of Information and Communications Technology (DICT)</span>
+                            <span class="justify-self-end">2021</span>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="grid grid-cols-[3fr_3fr_1fr] ">
+                            <span>Philippine Start-up Challenge (PSC) 2021 Regional Champion</span>
+                            <span>Department of Information and Communications Technology (DICT)</span>
+                            <span class="justify-self-end">2021</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
