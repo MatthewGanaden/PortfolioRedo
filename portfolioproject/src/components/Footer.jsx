@@ -17,14 +17,14 @@ function Footer() {
                     <div class="grid grid-cols-3 grid-rows-2 h-full">       
                         <nav class="flex flex-col gap-1">
                             <span class="font-bold text-xl pb-2">Menu</span>     
-                            <a href="">Home</a>
-                            <a href="">Projects</a>
-                            <a href="">About</a>
+                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">Home</a>
+                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">Projects</a>
+                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">About</a>
                         </nav>
                         <nav class="flex flex-col gap-1">
                             <span class="font-bold text-xl pb-2">Follow Me</span>
-                            <a href="">LinkedIn</a>
-                            <a href="">Github</a>
+                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">LinkedIn</a>
+                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">Github</a>
                         </nav>
 
                         <div class="flex flex-col gap-1">

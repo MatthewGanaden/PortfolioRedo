@@ -125,7 +125,7 @@ function HomeHero() {
                 <span class="font-semibold text-3xl">Projects</span>
                 <div class="flex gap-8 p-14 rounded-3xl bg-neutral-900 w-full justify-between items-center">
                     <div class="flex flex-col">
-                        <h2 class="font-bold text-2xl text-pink-400">DDStudios</h2>
+                        <h2 class="font-bold text-2xl text-sky-600">DDStudios</h2>
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
 
                         <a href="https://ddstudiosph.com/" target="_blank" class="mt-5 group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-full bg-neutral-700 px-6 font-medium w-36 transition-colors duration-300 ease-in-out hover:text-neutral-900">
@@ -146,7 +146,7 @@ function HomeHero() {
                 </div>
                 <div class="flex gap-8 p-14 rounded-3xl bg-neutral-900 w-full justify-between items-center">
                     <div class="flex flex-col">
-                        <h2 class="font-bold text-2xl text-pink-400">MatthewGanaden</h2>
+                        <h2 class="font-bold text-2xl text-sky-600">MatthewGanaden</h2>
                         <span>Started from photo manipulation and video editing to designing web and mobile applications</span>
                         
                         <a href="" class="mt-5 group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-full bg-neutral-700 px-6 font-medium w-36 transition-colors duration-300 ease-in-out hover:text-neutral-900">
