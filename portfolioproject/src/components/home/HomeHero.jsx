@@ -1,34 +1,41 @@
 import video from '../../assets/HomeBG.webm'
 import image from '../../assets/MattFace.png'
+import menu from '../../assets/menu.svg'
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 
 function HomeHero() {
     return (
         <div class="relative">
             <div class="flex flex-col gap-8 box-border mx-11 my-6 px-14 rounded-3xl bg-neutral-900 relative z-50 h-[calc(100vh-3rem)]">
-                <Navbar fluid class="pt-6 self-center absolute w-full px-14">
-                    <NavbarBrand href="https://flowbite-react.com">
-                        <img src="/logo.png" className="h-9 sm:h-14" alt="Flowbite React Logo"/>
-                    </NavbarBrand>
-                    <div className="flex md:order-2">
-                    <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-medium text-neutral-200 duration-500">
-                        <div class="translate-y-0 opacity-100 transition group-hover:-translate-y-[150%] group-hover:opacity-0">Hover me</div>
-                        <div class="absolute translate-y-[150%] opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
-                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
-                                <path d="M7.5 2C7.77614 2 8 2.22386 8 2.5L8 11.2929L11.1464 8.14645C11.3417 7.95118 11.6583 7.95118 11.8536 8.14645C12.0488 8.34171 12.0488 8.65829 11.8536 8.85355L7.85355 12.8536C7.75979 12.9473 7.63261 13 7.5 13C7.36739 13 7.24021 12.9473 7.14645 12.8536L3.14645 8.85355C2.95118 8.65829 2.95118 8.34171 3.14645 8.14645C3.34171 7.95118 3.65829 7.95118 3.85355 8.14645L7 11.2929L7 2.5C7 2.22386 7.22386 2 7.5 2Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                    </button>
-                        <NavbarToggle />
+            <div class="flex justify-between items-center pt-6">
+                <img src="/logo.png" className="h-9 sm:h-14 mr-20" alt="Flowbite React Logo"/>
+                <div>
+                    <ul class="hidden lg:flex gap-16">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-medium text-neutral-200 duration-500">
+                    <div class="translate-y-0 opacity-100 transition group-hover:-translate-y-[150%] group-hover:opacity-0">Download Resume</div>
+                    <div class="absolute translate-y-[150%] opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+                            <path d="M7.5 2C7.77614 2 8 2.22386 8 2.5L8 11.2929L11.1464 8.14645C11.3417 7.95118 11.6583 7.95118 11.8536 8.14645C12.0488 8.34171 12.0488 8.65829 11.8536 8.85355L7.85355 12.8536C7.75979 12.9473 7.63261 13 7.5 13C7.36739 13 7.24021 12.9473 7.14645 12.8536L3.14645 8.85355C2.95118 8.65829 2.95118 8.34171 3.14645 8.14645C3.34171 7.95118 3.65829 7.95118 3.85355 8.14645L7 11.2929L7 2.5C7 2.22386 7.22386 2 7.5 2Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
                     </div>
-                    <NavbarCollapse>
-                        <NavbarLink href="#" active class="text-sky-600">Home</NavbarLink>
-                        <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">About</NavbarLink>
-                        <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">Services</NavbarLink>
-                        <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">Pricing</NavbarLink>
-                        <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">Contact</NavbarLink>
-                    </NavbarCollapse>
-                </Navbar>
+                </button>
+
+                <span onClick="Menu(this)"><img src={menu} class="w-11 bg-white"alt="design"/></span>
+
+                <div>
+                    <ul class="lg:hidden flex flex-col items-center z-auto absolute bg-neutral-900 w-full left-0 my-10 transition-all ease-in duration-300">
+                        <li class="mx-4 my-6 "><a href="">Home</a></li>
+                        <li class="mx-4 my-6 "><a href="">Projects</a></li>
+                        <li class="mx-4 my-6 "><a href="">About</a></li>
+                    </ul>
+                </div>
+                
+            </div>
                 <div class="flex gap-10 items-center justify-between pt-32">
                     <h1 class="font-bold text-4xl leading-none max-w-md">Full Stack Developer</h1>
                     <span class="hidden lg:block text-xl leading-tight max-w-md">I like to challenge myself through developing websites, enhancing my skills and satisfying client needs and requirements</span>
@@ -57,7 +64,6 @@ function HomeHero() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
