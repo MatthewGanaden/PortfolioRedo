@@ -20,6 +20,7 @@ import Git from '../../assets/tech/Git.svg'
 import Arduino from '../../assets/tech/Arduino.svg'
 import Selenium from '../../assets/tech/Selenium.svg'
 
+
 const navigation = [
     { name: 'Home', href: '#' },
     { name: 'Projects', href: '#' },

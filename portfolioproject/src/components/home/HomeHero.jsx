@@ -1,5 +1,7 @@
 import video from '../../assets/HomeBG.webm'
 import image from '../../assets/MattFace.png'
+import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+
 
 const navigation = [
     { name: 'Home', href: '#' },
@@ -11,15 +13,34 @@ function HomeHero() {
     return (
         <div class="relative">
             <div class="flex flex-col gap-8 box-border mx-11 my-6 px-14 rounded-3xl bg-neutral-900 relative z-50 h-[calc(100vh-3rem)]">
-                <nav class="flex items-center justify-between pt-6">
-                    <a href="" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100">Matthew Ganaden</a>
-                        <div class="hidden gap-36 text-base lg:flex lg:items-center text-primarytext">
-                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">Home</a>
-                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">Projects</a>
-                            <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">About</a>
-                        </div>
-                    <a href="" class="transition-all duration-300 ease-in-out hover:text-sky-600">Download Resume</a>
-                </nav>
+            <Navbar fluid class="bg-neutral-900 pt-6 relative">
+              <NavbarBrand href="https://flowbite-react.com">
+                <img src="/logo.png" className="h-9 sm:h-14" alt="Flowbite React Logo"/>
+              </NavbarBrand>
+              <div className="flex md:order-2">
+              <a href="" target="_blank" class="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-full bg-neutral-700 px-6 font-medium w-52 transition-colors duration-300 ease-in-out hover:text-neutral-900">
+                            <span class="relative z-10">Download Resume</span>
+                            <div class="relative z-10 w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5">
+                                    <path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="absolute left-0 aspect-square w-full origin-center translate-x-full rounded-full bg-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span>
+                        </a>
+                <NavbarToggle />
+              </div>
+              <NavbarCollapse>
+                <NavbarLink href="#" active class="text-sky-600">
+                  Home
+                </NavbarLink>
+                <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">About</NavbarLink>
+                <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">Services</NavbarLink>
+                <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">Pricing</NavbarLink>
+                <NavbarLink href="#" class="transition-all duration-300 ease-in-out hover:text-sky-600">Contact</NavbarLink>
+              </NavbarCollapse>
+            </Navbar>
+
+
 
                 <div class="flex gap-10 items-center justify-between pt-10">
                     <h1 class="font-bold text-4xl max-w-md">Full Stack Developer</h1>
