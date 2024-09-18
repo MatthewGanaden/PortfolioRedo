@@ -1,12 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-const flowbite = require("flowbite-react/tailwind");
-
-export default {
-  mode: 'jit',
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    flowbite.content(),
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     fontSize: {
@@ -18,8 +15,8 @@ export default {
     },
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 50s linear infinite",
-        "reverse-loop-scroll": "reverse-loop-scroll 50s linear infinite",
+        "loop-scroll": "loop-scroll 30s linear infinite",
+        "reverse-loop-scroll": "reverse-loop-scroll 30s linear infinite",
       }
     },
     keyframes: {
@@ -32,10 +29,7 @@ export default {
         from: { transform: "translateX(-100%)" },
         to: { transform: "translateX(0)" }, 
       }
-    }
+    },
   },
-  plugins: [
-    flowbite.plugin(),
-  ],
-}
-
+  plugins: [],
+};
